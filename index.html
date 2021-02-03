@@ -4,29 +4,58 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+  <!-- *********************stylesheets**************************** -->
+  <link rel="stylesheet" href="Bootstrap_CSS/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
 
-  <section id="title">
+  <section id="title" class="container-fluid">
 
     <!-- Nav Bar -->
-
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" navbar-modification collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 
 
     <!-- Title -->
-
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+    <div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <div id="title-content">
+        <h1>Meet new and interesting dogs nearby.</h1>
+        <button type="button">Download</button>
+        <button type="button">Download</button>
+      </div>
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
+    <div class="col-lg-6">
+      <div id="title-img">
+        <img src="images/iphone6.png" alt="iphone-mockup" style="width: 50%;">
+      </div>
     </div>
-
+  </div>
+</div>
   </section>
 
 

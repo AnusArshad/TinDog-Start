@@ -1,0 +1,33 @@
+body{
+margin: 0px;
+}
+#title{
+  background-color: #f67280;
+  padding: 6%;
+}
+/* *******************************navbar section****************************** */
+.navbar-modification{
+  font-size: 1.3rem;
+  width: 40%;
+}
+.navbar-brand{
+  font-size: 3rem;
+  color:white;
+  font-weight: bolder;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+  color: #FF0040;
+}
+.nav-link:hover{
+  color:#F705C3;
+}
+/* *************************title section**************************** */
+#title-img{
+  transform: rotate(28deg);
+}
+.container{
+  padding: 20px;
+}
